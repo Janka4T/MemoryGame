@@ -46,17 +46,18 @@
             this.Grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.Grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.Grid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.Grid.Size = new System.Drawing.Size(799, 535);
+            this.Grid.Size = new System.Drawing.Size(648, 549);
             this.Grid.TabIndex = 0;
             // 
             // MemoryGrid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(799, 535);
+            this.ClientSize = new System.Drawing.Size(648, 549);
             this.Controls.Add(this.Grid);
             this.Name = "MemoryGrid";
             this.Text = "Form1";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MemoryGrid_KeyDown);
             this.ResumeLayout(false);
 
         }
